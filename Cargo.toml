@@ -1,9 +1,11 @@
 [package]
-name = "shell"
+name = "rush"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+colored = "2.1.0"
+gethostname = "0.4.3"
+
 regex = "1.5"
 users = "0.11"
-
